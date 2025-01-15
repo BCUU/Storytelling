@@ -4,7 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Samples/Meta MR Utility Kit/71.0.0/Passthrough Relighting/PassthroughRelighting.unity
+    guid: 36246cc1dd7f015428dc705da9e4497e
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 09a82892fa8cd664a96b902e010e8290, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: b2dbc4f4c668219428768db237c6e41a, type: 2}

@@ -8,6 +8,7 @@ public class AppleAdder : MonoBehaviour
     public Animator characterAnimator;
     private int appleCount = 0;
     private bool hasDanced = false;
+    public StoryManager storyManager;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -22,11 +23,15 @@ public class AppleAdder : MonoBehaviour
                 HideText();
                 PlayDanceAnimation();
                 hasDanced = true;
+                Invoke("thirdeventwaiter", 3f);
             }
             Destroy(other.gameObject);
         }
     }
-
+    private void thirdeventwaiter()
+    {
+        storyManager.CallThirdDelayedevents();
+    }
     private void UpdateText()
     {
         if (textMesh != null)

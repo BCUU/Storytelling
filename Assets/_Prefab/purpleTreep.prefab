@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6776136046288133175}
   - component: {fileID: 739441509095041039}
   - component: {fileID: 1336914744555799138}
+  - component: {fileID: 5418755573719111664}
   m_Layer: 0
   m_Name: purpleTreep
   m_TagString: Untagged
@@ -106,3 +107,24 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.25733697, y: 1.2238996, z: 0.21003056}
   m_Center: {x: -0.009406984, y: 0.6119498, z: 0.009678841}
+--- !u!95 &5418755573719111664
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823724792711126549}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 30fbb83f33d99ac479ae48b5b59bfaa7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
